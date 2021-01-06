@@ -1,7 +1,7 @@
 var readline = require('readline-sync');
 const chalk = require('chalk');
 
-console.log(chalk.cyan("How well do you know about karanataka?\n"));
+console.log(chalk.cyan("Are you cricket fan? If yes you will enjoy this game!\n"));
 
 var userName = readline.question("What is your name?\n");
 var score = 0;
@@ -28,36 +28,44 @@ function play(question, answer) {
 
 var questions = [
 	{
-		question:"What is the capital of Karanaataka ?\n",
+		question:"Where was the IPL inauguration match played ?\n",
 		answer: "Bangalore"
 	},
 	{
-		question: "What is name of Karnataka IPL team?\n",
-		answer: "RCB"
+		question: "Who scored first century in IPL?\n",
+		answer: "Brandon McCullum"
 	},
 	{
-		question: "In which district the Hampi monuments are located?\n",
-		answer:"Bellary"
+		question: "Whos scored most runs in IPL ?\n",
+		answer:"Virat Kohli"
 	},
 	{	
-		question: "Which is the largest river in karnataka?\n",
-		answer:"kaveri"
+		question: "Which hit first six 6's in T20 world cup?\n",
+		answer:"Yuvaraj Singh"
 	},
 	{	
-		question: "Jog falls which is one of the highest waterfalls in India, is created by which river?\n",
-		answer: "Sharavati"
+		question: "Who is most successful wicketkeeper  catain in world cricket?\n",
+		answer: "MS Dhoni"
 	},
 	{
-		question: "In which district, the Bandipur National Park is located?\n",
-		answer: "Chamrajnagar"
+		question: "How many teams won more than 2 title in IPL?\n",
+		answer: "3"
 	},
 	{	
-		question: "Which is the highest peak in Karnataka?\n",
-		answer: "Mullayangiri"
+		question: "Maximum how many overseas players can inclue in playing-XI of an IPL match?\n",
+		answer: "4"
+	},
+  {	
+		question: "Which bowler bowled  the first ever ball in IPL history?\n",
+		answer: "praveen kumar"
+	},
+  {	
+		question: "How many teams has MS Dhoni represented in IPL?\n",
+		answer: "2"
 	},
 	{
-		question: "Which symbolise Karnataka state flower?\n",
-		answer: "Lotus"
+		question: "Who scored 4 or more centuries in the same IPL season?\n",
+		answer: "Virat Kohli"
 	}
 ]
 
