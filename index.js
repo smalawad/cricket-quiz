@@ -48,7 +48,7 @@ var questions = [
 		answer: "MS Dhoni"
 	},
 	{
-		question: "How many teams won more than 2 title in IPL?\n",
+		question: "How many teams won 2 or more titles in IPL?\n",
 		answer: "3"
 	},
 	{	
