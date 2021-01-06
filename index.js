@@ -1,7 +1,8 @@
 var readline = require('readline-sync');
 const chalk = require('chalk');
 
-console.log(chalk.cyan("Are you cricket fan? If 'yes', you will enjoy this game!\n"));
+console.log(chalk.cyan("Are you cricket fan? If 'yes', you will enjoy this game!\n\n Point System: \n ===============\n For each right answer you will score: \t1 - point. \n For wrong answer you score: \t\t\t0 - point.\n"));
+console.log("==========================");
 
 var userName = readline.question("What is your name?\n");
 var score = 0;
