@@ -1,7 +1,7 @@
 var readline = require('readline-sync');
 const chalk = require('chalk');
 
-console.log(chalk.cyan("Are you cricket fan? If yes you will enjoy this game!\n"));
+console.log(chalk.cyan("Are you cricket fan? If 'yes', you will enjoy this game!\n"));
 
 var userName = readline.question("What is your name?\n");
 var score = 0;
